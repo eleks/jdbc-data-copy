@@ -3,7 +3,7 @@ import groovy.sql.Sql;
 import groovy.sql.GroovyResultSet;
 import groovy.sql.BatchingPreparedStatementWrapper;
 
-@groovy.transform.CompileStatic /* apply statis types chack to run faster */
+@groovy.transform.CompileStatic /* apply statis types check to run faster */
 class DataCopyJDBC {
 	def copy(Map<String,String> cfg, Sql srcSql, Sql dstSql, List<Map<String,Object>> tlist){
 		int batchSize = cfg."data.copy.batch.size" as Integer
