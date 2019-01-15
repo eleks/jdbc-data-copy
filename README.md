@@ -21,5 +21,6 @@ the tool created as a set of groovy scripts that could be easily extended with k
 
 ### how to run
 
+* download the latest [release](https://github.com/eleks/jdbc-data-copy/releases) or clone/download latest master version 
 * edit connection parameters in `datacopy.properties` file
 * run `datacopy` command from console
